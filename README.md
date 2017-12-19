@@ -1,4 +1,4 @@
-# # Better
+## Better
 
 Intelligent Advisors Trading Platform
 
