@@ -10,18 +10,6 @@ The method is basically the policy gradient on immediate reward.
 Result summary and parallel training are allowed for better hyper-parameters optimization.
 * The financial-model-based portfolio management algorithms are also embedded in this library for comparision purpose, whose implementation is based on Li and Hoi's toolkit [OLPS](https://github.com/OLPS/OLPS).
 
-## Differences from the article version
-Note that this library is a part of our main project, and it is several versions ahead of the article.
-
-* In this version, some technical bugs are fixed and improvements in hyper-parameter tuning and engineering are made.
-  * The most important bug in the arxiv v2 article is that the test time-span mentioned is about 30% shorter than the actual experiment. Thus the volumn-observation interval (for asset selection) overlapped with the backtest data in the paper.
-* With new hyper-parameters, users can train the models with smaller time durations.(less than 30 mins)
-* All updates will be incorporated into future versions of the paper.
-* Original versioning history,  and internal discussions, including some in-code comments, are removed in this open-sourced edition. These contains our unimplemented ideas, some of which will very likely become the foundations of our future publications
-
-## Platform Support
-Python 3.5+ supported.
-
 ## Dependencies
 Install Dependencies via `pip install -r requirements.txt`
 
