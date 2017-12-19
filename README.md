@@ -1,3 +1,7 @@
+# # Better
+
+Intelligent Advisors Trading Platform
+
 This is the orinal implementation of our paper, A Deep Reinforcement Learning Algorithm for Financial Portfolio Management, together with a toolkit of portfolio management research.
 
 * The deep reinforcement learning Algorithm is the core part of the library.
